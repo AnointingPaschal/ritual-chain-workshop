@@ -1,0 +1,25 @@
+{
+  "name": "repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnointingPaschal/ritual-chain-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnointingPaschal/ritual-chain-workshop/issues"
+  },
+  "homepage": "https://github.com/AnointingPaschal/ritual-chain-workshop#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "hardhat": "^2.28.6",
+    "solc": "^0.8.20"
+  }
+}
