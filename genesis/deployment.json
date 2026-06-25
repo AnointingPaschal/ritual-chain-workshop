@@ -1,13 +1,15 @@
 {
-  "_note": "This file is created automatically when you run: node genesis/scripts/deploy-and-spawn.js",
+  "_note": "Run: PRIVATE_KEY=0x... node genesis/scripts/deploy-and-spawn.js",
   "network": "ritual-testnet",
   "chainId": 1979,
   "wallet": "0x447D5cA32D0355a02d719E8907e2e620063e0a16",
-  "contractAddress": "0xdaC0e77d9b0769BA67a7bB49C3aB0E96dd9b14D6",
-  "explorerUrl": "https://explorer.ritualfoundation.org/address/0xdaC0e77d9b0769BA67a7bB49C3aB0E96dd9b14D6",
+  "agentType": "Sovereign Agent (0x080C)",
+  "agentName": "Chess Tournament Judge",
+  "description": "Monitors CommitRevealBountyJudge, uses Ritual LLM to evaluate chess games, declares winners, pays out via RitualWallet",
+  "contractAddress": null,
   "spawnTxHash": null,
   "spawnBlock": null,
   "spawnTimestamp": null,
-  "genesisRank": null,
+  "explorerBase": "https://explorer.ritualfoundation.org",
   "agentsUrl": "https://agents.ritualfoundation.org"
 }
