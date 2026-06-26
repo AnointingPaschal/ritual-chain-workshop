@@ -1,15 +1,17 @@
 {
-  "_note": "Run: PRIVATE_KEY=0x... node genesis/scripts/deploy-and-spawn.js",
   "network": "ritual-testnet",
   "chainId": 1979,
   "wallet": "0x447D5cA32D0355a02d719E8907e2e620063e0a16",
   "agentType": "Sovereign Agent (0x080C)",
   "agentName": "Chess Tournament Judge",
-  "description": "Monitors CommitRevealBountyJudge, uses Ritual LLM to evaluate chess games, declares winners, pays out via RitualWallet",
-  "contractAddress": null,
-  "spawnTxHash": null,
-  "spawnBlock": null,
-  "spawnTimestamp": null,
-  "explorerBase": "https://explorer.ritualfoundation.org",
-  "agentsUrl": "https://agents.ritualfoundation.org"
+  "description": "Monitors CommitRevealBountyJudge, uses Ritual LLM to evaluate chess games fairly, declares winners on-chain",
+  "consumerContract": "0x227C60C6069be2958dFb56a67Ffc7D53b372a604",
+  "executorAddress": "0x9dc11412391Dc3EDF59811FC9Ee7bEbFD41c8b4C",
+  "phase1TxHash": "0x740ca19e58b188c24cf53f896a3e22c2376103d434ebf11dc2015f6fddb4a9fa",
+  "phase2Delivered": true,
+  "phase2DeliveryTime": "13.3s",
+  "spawnTimestamp": "2026-06-25",
+  "explorerUrl": "https://explorer.ritualfoundation.org/tx/0x740ca19e58b188c24cf53f896a3e22c2376103d434ebf11dc2015f6fddb4a9fa",
+  "agentsUrl": "https://agents.ritualfoundation.org",
+  "note": "Phase 2 delivered successfully. Agent ran on-chain. Check agents.ritualfoundation.org for Genesis rank."
 }
